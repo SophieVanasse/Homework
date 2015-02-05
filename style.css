@@ -1,0 +1,19 @@
+aside section p {
+  color: green;
+}
+
+#favorite {
+  color: orange;
+}
+
+.hate{
+  color:magenta;
+}
+
+ul {
+  color: blue;
+  font-style:arial;
+  font-size:10;
+  list-style-type:square;
+}
+
