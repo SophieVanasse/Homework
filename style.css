@@ -1,5 +1,60 @@
+body{
+  font-family: AbsaraSans-Thin;
+  background-size: contain;
+  background-image: url(http://ad009cdnb.archdaily.net/wp-content/uploads/2014/12/543ca8b9c07a801fe70001cf_ad-classics-expo-98-portuguese-national-pavilion-lvaro-siza_dacian_groza-530x354.jpg)
+  
+}
+
+body header{
+  background-color: rgba(255,255,255,0.5);
+  box-shadow: 2px 2px 2px black;
+  
+}
+
+section header{
+  background-color: rgba(255,255,255,0.5);
+  box-shadow: 2px 2px 2px black;
+}
+
+section article{
+  background-color: rgba(255,255,255,0.5);
+  box-shadow: 2px 2px 2px black;
+}
+
+aside{
+  background-color: rgba(255,255,255,0.5);
+  box-shadow: 2px 2px 2px black;
+  margin: 0px 10px 0px 0px;
+}
+
+aside section{
+  background-color: rgba(150,150,150,0.5);
+  box-shadow: 2px 2px 2px black;
+}
+
 aside section p {
   color: green;
+}
+
+aside section h4 {
+  color: black;
+  font-family: Lucida Console;
+  font-size: 150%;
+}
+
+article p {
+  color: black;
+  text-align: justify;
+  padding-left: 30px;
+  padding-right: 60px;
+  line-height:40px;
+  font-family: AbsaraSans-Thin;
+}
+
+.round {
+  height: 120px;
+  max-width: none;
+  border-radius: 50%;
 }
 
 #favorite {
@@ -11,9 +66,39 @@ aside section p {
 }
 
 ul {
-  color: blue;
-  font-style:arial;
+  color: grey;
+  font-style:times;
   font-size:10;
   list-style-type:square;
 }
 
+li {
+	padding-left: 50px;
+	line-height:25px;
+}
+
+header {
+	padding-left: 30px;
+}
+
+#title{
+  padding-left: 400px;
+}
+
+.float-l{
+	float:left;
+  padding-left: -20px;
+}
+
+.float-r{
+	float:right;
+  align:right;
+	
+}
+.float-w{
+  float:right;
+  font-style: italic;
+  font-variant: small-caps;
+  padding-right: 150px;
+  padding-top: 75px;
+}
